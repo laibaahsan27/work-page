@@ -75,7 +75,7 @@ body{
     /* -webkit-text-stroke: 5rem solid #8C2F39; */
     transition: 0.3s ease-in-out;
     text-shadow: .1rem 0 #8C2F39, -.1rem 0 #8C2F39, 0 .1rem #8C2F39, 0 -.1rem #8C2F39,
-               .1rem .1rem #8C2F39, -.1rem -.rem #8C2F39, .1rem -.1rem #8C2F39, -.1rem .1rem #8C2F39;
+               .1rem .1rem #8C2F39, -.1rem -.1rem #8C2F39, .1rem -.1rem #8C2F39, -.1rem .1rem #8C2F39;
 }
 .work{
     color: white;
@@ -563,6 +563,30 @@ li {
     transition: text-transform .5s ease-out;
   
   }
+
+  /* .workSpan, .workSpan2, .wirkSpan1{
+    font-size: 10rem;
+  } */
   
+  .workNAV ul li .link span {
+    display: block;
+    /* font-weight: 500; */
+    z-index: 5;
+    mix-blend-mode: difference;
+    display: inline-block;
+    position: relative;
+    color: black;
+    /* font-size: 3.4rem; */
+    text-transform: uppercase;
+    font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 4rem;
+      line-height: 3.8rem;
+
+  }
+  .workNAV ul li .link span:hover{
+    color: #B23A48;
+}
 
 }
