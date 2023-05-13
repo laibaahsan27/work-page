@@ -89,7 +89,7 @@ body{
 
 
 
-.headingWork {
+/* .headingWork {
     padding-bottom: 8rem;
     padding-top: 2rem;
     font-family: Anton;
@@ -120,10 +120,9 @@ li {
 
 .workNAV ul {
 	width: 100%;
-  /* padding-left: 100rem; */
-}
+} */
 
-.workSpan{
+/* .workSpan{
 	padding-left: 10rem;
 }
 .workSpan2{
@@ -149,26 +148,115 @@ li {
 }
 .workNAV ul li .link span {
 	display: block;
-	/* font-weight: 500; */
 	z-index: 5;
 	mix-blend-mode: difference;
 	display: inline-block;
 	position: relative;
 	color: black;
-	/* font-size: 3.4rem; */
 	text-transform: uppercase;
 	font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 3.2rem;
     line-height: 3.8rem;
-}
-.workNAV ul li .link > img {
+} */
+
+/* .workNAV ul li .link > img {
 	mix-blend-mode: difference;
 	z-index: 5;
 }
 
 
+.hover-reveal {
+	position: absolute;
+	width: 25rem;
+	height: 35rem;	
+	pointer-events: none;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	opacity: 0;
+	transform: scale(0.8);
+	transition: all .5s ease-out;
+} */
+
+/* .hover-reveal img {
+	width: 80%;
+	height: 80%;
+	object-fit: cover;
+	position: relative;
+	transition: text-transform .5s ease-out;
+
+}
+
+.commWorkDiv{
+  padding-top: 4rem;
+        padding-left: 7rem;
+        padding-right: 0;
+        width: 100%;
+} */
+
+/* .commWorkDivDown{
+  padding-left: 7rem;
+        padding-bottom: 9rem;
+}
+
+.commWorkHeading1 {
+    box-sizing: border-box;
+    height: 4.8rem;
+    font-family: Anton;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.2rem;
+    line-height: 4.8rem;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+} */
+
+/* .commWorkHeading2 {
+    box-sizing: border-box;
+    height: 4.8rem;
+    font-family: Anton;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.2rem;
+    line-height: 4.8rem;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: rgb(0, 0, 0) .1rem 0, rgb(0, 0, 0) -.1rem 0, rgb(0, 0, 0) 0rem .1rem, rgb(0, 0, 0) 0rem -.1rem, rgb(0, 0, 0) .1rem .1rem, rgb(0, 0, 0) -.1rem -.1rem, rgb(0, 0, 0) .1rem -.1rem, rgb(0, 0, 0) -.1rem .1rem;
+} */
+
+
+
+/* work list starts */
+
+.headingWork {
+  padding-bottom: 8rem;
+  padding-top: 2rem;
+  font-family: Anton;
+  font-style: normal;
+  font-size: 7rem;
+  text-align: start;
+  padding-right: 133rem;
+  padding-left: 4.5rem;
+}
+
+.link{
+  display: flex;
+  justify-content: space-between;
+  border-bottom:.05rem solid black;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+
+
+}
 .hover-reveal {
 	position: absolute;
 	width: 25rem;
@@ -188,7 +276,21 @@ li {
 	position: relative;
 	transition: text-transform .5s ease-out;
 
+} 
+
+.commWorkDiv{
+  padding-top: 4rem;
+  padding-left: 7rem;
+  padding-right: 0;
+  width: 100%;
+} 
+
+.commWorkDivDown{
+  padding-left: 7rem;
+  padding-bottom: 8rem;
 }
+
+/* work list ends */
 
 .commWorkDiv{
   padding-top: 4rem;
@@ -197,36 +299,30 @@ li {
         width: 100%;
 }
 
-.commWorkDivDown{
-  padding-left: 7rem;
-        padding-bottom: 9rem;
-}
-
 .commWorkHeading1 {
-    box-sizing: border-box;
-    height: 4.8rem;
-    font-family: Anton;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 3.2rem;
-    line-height: 4.8rem;
-    text-transform: uppercase;
-    color: rgb(0, 0, 0);
+  box-sizing: border-box;
+  height: 4.8rem;
+  font-family: Anton;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
 }
 
 .commWorkHeading2 {
-    box-sizing: border-box;
-    height: 4.8rem;
-    font-family: Anton;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 3.2rem;
-    line-height: 4.8rem;
-    text-transform: uppercase;
-    color: white;
-    text-shadow: rgb(0, 0, 0) .1rem 0, rgb(0, 0, 0) -.1rem 0, rgb(0, 0, 0) 0rem .1rem, rgb(0, 0, 0) 0rem -.1rem, rgb(0, 0, 0) .1rem .1rem, rgb(0, 0, 0) -.1rem -.1rem, rgb(0, 0, 0) .1rem -.1rem, rgb(0, 0, 0) -.1rem .1rem;
+  box-sizing: border-box;
+  height: 4.8rem;
+  font-family: Anton;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: rgb(0, 0, 0) .1rem 0, rgb(0, 0, 0) -.1rem 0, rgb(0, 0, 0) 0rem .1rem, rgb(0, 0, 0) 0rem -.1rem, rgb(0, 0, 0) .1rem .1rem, rgb(0, 0, 0) -.1rem -.1rem, rgb(0, 0, 0) .1rem -.1rem, rgb(0, 0, 0) -.1rem .1rem;
 }
-
 .commWork{
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -453,140 +549,6 @@ li {
     margin-bottom: .4rem;
   }
 
-  @media (max-width: 768rem) {
-	.workNAV ul {
-		width: 93%;
-	}
-	.workNAV ul li a span {
-		font-size: 2.5rem;
-	}
-	.workNAV ul li a > img {
-		height: 18rem;
-	}
-	.hover-reveal {
-		width: 220rem;
-		height: 300rem;
-	}
-}
-
-
-@media (max-width: 320rem) {
-
-  /*.workNAV ul {
-		width: 93%;
-	}
-	.workNAV ul li a span {
-		font-size: 2.5rem;
-	}
-	.workNAV ul li a > img {
-		height: 18rem;
-	}
-	.hover-reveal {
-		width: 220rem;
-		height: 300rem;
-	} */
-	
-  html{
-    font-size: 27%;
-  }
-
-  .navRight{
-    display: none;
-  }
-  .workNAV{
-    /* margin-right: 10rem; */
-    /* padding-right: 10rem; */
-    min-height: 0;
-
-  }
-  .headingWork{
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-  }
-
-  .commWorkDiv{
-    /* padding-left: ; */
-  }
-
-  /* .workUl{
-    padding-left: 0rem;
-    width: 100%;
-    margin-left: 0;
-  }
-  .li{
-    width: 100%;
-  } */
-
-  .commWorkHeading1{
-    font-size: 4rem;
- 
-  }
-  .commWorkHeading2{
-    font-size: 4rem;
-  }
-  .commWork{
-    height: 30rem;
-    margin-right: 5rem;
-    margin-bottom: 3.5rem;
-    
-    /* filter: drop-shadow(rgba(0, 0, 0, 0.5) 4rem 4rem 11rem); */
-    box-shadow: rgba(157, 156, 156, 0.3) .5rem .6rem .8rem .4rem;
-  }
-  .commWorkDivDown{
-    padding-left: 5rem;
-    padding-bottom: 11rem;
-    /* padding-right: ; */
-  }
-  .commWorkDiv{
-    padding-left: 5rem;
-    padding-top: 7rem;
-    padding-bottom: 4rem;
-  }
-  .commWorkUp{
-    /* width: 30.3rem;
-    height: 5.2rem; */
-    line-height: 5.5rem;
-    font-size: 4.5rem;
-    padding-top: 2rem;
-    padding-left: 2rem;
-  }
-  .commWorkSpan2{
-    font-size: 4rem;
-    line-height: 8rem;
-    
-  }
-  .hover-reveal img {
-    width: 0;
-    height: 0;
-    object-fit: cover;
-    position: relative;
-    transition: text-transform .5s ease-out;
   
-  }
 
-  /* .workSpan, .workSpan2, .wirkSpan1{
-    font-size: 10rem;
-  } */
-  
-  .workNAV ul li .link span {
-    display: block;
-    /* font-weight: 500; */
-    z-index: 5;
-    mix-blend-mode: difference;
-    display: inline-block;
-    position: relative;
-    color: black;
-    /* font-size: 3.4rem; */
-    text-transform: uppercase;
-    font-family: 'Roboto';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 4rem;
-      line-height: 3.8rem;
 
-  }
-  .workNAV ul li .link span:hover{
-    color: #B23A48;
-}
-
-}
