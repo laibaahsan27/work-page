@@ -21,6 +21,14 @@ body{
 
 /* nav bar starts */
 
+.navRight{
+  position: relative;
+}
+.workNavSpecial{
+  display: none;
+  position: absolute;
+}
+
 .header span, ul li a{
     font-family: 'Anton', sans-serif;
     font-weight: 400;
@@ -68,6 +76,7 @@ body{
     color: #8C2F39;
     font-size: 2rem;
     line-height: 3.6rem;
+
 }
 .workNav:hover{
     color:white;
@@ -330,7 +339,7 @@ li {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: left;
+    justify-content: space-between;
     filter: drop-shadow(rgba(0, 0, 0, 0.25) 3rem 3rem 10rem);
     margin-bottom: 1.6rem;
     margin-top: 1.5rem;
@@ -340,11 +349,13 @@ li {
     background: linear-gradient(90deg, rgba(178, 58, 72, 0.49) 0.73%, rgba(140, 47, 57, 0) 100%);
     border-radius: .8rem;
     overflow: hidden;
+    
 }
 
 .commWorkSpan2{
   font-weight: 600;
   font-size: 20px;
+
 }
 
 .commWorkUp {
@@ -356,6 +367,18 @@ li {
     color: rgb(0, 0, 0);
     display: block;
     float: left;
+}
+.commWorkSpan3{
+  /* display: none; */
+  font-size: 20px;
+  font-family: Roboto;
+    font-style: normal;
+  
+
+}
+.commWorkDown{
+  align-items: center;
+  padding-top: 1.7rem;
 }
 
 /* footer  */
@@ -550,5 +573,298 @@ li {
   }
 
   
+/* responsive starts here */
+
+@media (max-width: 320px){
+
+	
+  html{
+    font-size: 27%;
+  }
+
+  .navRight{
+    display: none;
+  }
+
+  .headingWork{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  .commWorkHeading1{
+    font-size: 4rem;
+ 
+  }
+  .commWorkHeading2{
+    font-size: 4rem;
+  }
+  .commWork{
+    height: 31.5rem;
+    margin-right: 5rem;
+    margin-bottom: 3.5rem;
+    box-shadow: rgba(157, 156, 156, 0.3) .5rem .6rem .8rem .4rem;
+  }
+  .commWorkDivDown{
+    padding-left: 5rem;
+    padding-bottom: 11rem;
+  }
+  .commWorkDiv{
+    padding-left: 5rem;
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+  }
+  .commWorkUp{
+    /* width: 30.3rem;
+    height: 5.2rem; */
+    line-height: 5.5rem;
+    font-size: 4.5rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+  
+  }
+  .commWorkSpan2{
+    font-size: 4rem;
+    line-height: 8rem;
+    
+  }
+  .hover-reveal img {
+    width: 0;
+    height: 0;
+    object-fit: cover;
+    position: relative;
+    transition: text-transform .5s ease-out;
+  
+  }
+
+  .workSpan, .workSpan2, .wirkSpan1{
+    font-size: 10rem;
+  } 
+  
+  .workNAV ul li .link span {
+    display: block;
+    z-index: 5;
+    mix-blend-mode: difference;
+    display: inline-block;
+    position: relative;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 3.8rem;
+  }
+  .link{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 4rem;
+    padding-top: 3rem;
+    border-bottom: 0.37rem solid black;
+    font-weight: 578;
+    padding-bottom: 3rem;
+  }
+  .link:hover{
+    color: #B23A48;
+    font-weight: 700;
+  }
+  .commWorkSpan3{
+    display: contents;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 10rem;
+  }
+  .commWorkDown{
+    padding-left: 2rem;
+
+  }
+  .headingWork {
+    padding-bottom: 9rem;
+    padding-top: 9rem;
+    font-family: Anton;
+    font-style: normal;
+    font-size: 6rem;
+    text-align: start;
+    padding-right: 133rem;
+    padding-left: 4.5rem;
+  }
+  
+  .workNavSpecial{
+    display: contents;
+    color: #8C2F39;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    text-decoration:  none;
+    font-size: 5rem;
+  }
+  .nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding-top: 5rem;
+    padding-bottom: 0;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+.header{
+  font-size: 3.5rem;
+}
+
+.TWT{
+  display: none;
+}
+}
+
+/* responsiv for tablets */
+
+@media (min-width: 325px) and (max-width:961px){
+  html{
+    font-size: 55%; 
+  }
+  .navRight{
+    display: none;
+  }
+
+  .headingWork{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  .commWorkHeading1{
+    font-size: 6rem;
+ 
+  }
+  .commWorkHeading2{
+    font-size: 6rem;
+  }
+  .commWork{
+    line-height: 4.5rem;
+    font-size: 3.9rem;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+    height: 18rem;
+    margin-right: 5rem;
+    margin-bottom: 3.5rem;
+    box-shadow: rgba(157, 156, 156, 0.3) .5rem .6rem .8rem .4rem;
+    
+  }
+  .commWorkDivDown{
+    padding-left: 5.5rem;
+    padding-bottom: 11rem;
+  }
+  .commWorkDiv{
+    padding-left: 5.5rem;
+    padding-top: 10rem;
+    padding-bottom: 7rem;
+  }
+  .commWorkUp{
+    /* width: 30.3rem;
+    height: 5.2rem; */
+    line-height: 4.5rem;
+    font-size: 3.9rem;
+    /* padding-top: 3rem; */
+    /* padding-left: 2rem; */
+    /* display: block; */
+  
+  }
+  .commWorkSpan2{
+    font-size: 3rem;
+    line-height: 3rem;  
+  }
+  .hover-reveal img {
+    width: 0;
+    height: 0;
+    object-fit: cover;
+    position: relative;
+    transition: text-transform .5s ease-out;
+  
+  }
+  
+  .workNAV ul li .link span {
+    display: block;
+    z-index: 5;
+    mix-blend-mode: difference;
+    display: inline-block;
+    position: relative;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 3.8rem;
+  }
+  .link{
+    padding-left: 5.5rem;
+    padding-right: 3rem;
+    font-size: 4rem;
+    padding-top: 3rem;
+    border-bottom: 0.3rem solid black;
+    font-weight: 578;
+    padding-bottom: 3rem;
+  }
+  .link:hover{
+    color: #B23A48;
+    font-weight: 700;
+  }
+  .commWorkSpan3{
+    display: contents;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 10rem;
+    
+  }
+  .commWorkDown{
+    padding-left: 0rem;
+    padding-top: 6.5rem;
+    font-weight: 400;
+
+  }
+  .headingWork {
+    padding-bottom: 9rem;
+    padding-top: 9rem;
+    font-family: Anton;
+    font-style: normal;
+    font-size: 13rem;
+    text-align: start;
+    padding-right: 133rem;
+    padding-left: 4.5rem;
+  }
+  
+  .workNavSpecial{
+    display: contents;
+    color: #8C2F39;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    text-decoration:  none;
+    font-size: 5rem;
+  }
+  .nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding-top: 5rem;
+    padding-bottom: 0;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+.header{
+  font-size: 3.5rem;
+}
+
+.TWT{
+  display: none;
+}
 
 
+
+}
