@@ -243,9 +243,9 @@ li {
   padding-top: 2rem;
   font-family: Anton;
   font-style: normal;
-  font-size: 7rem;
-  text-align: start;
-  padding-right: 133rem;
+  font-size: 8rem;
+  /* text-align: start; */
+  /* padding-right: 133rem; */
   padding-left: 4.5rem;
 }
 
@@ -296,16 +296,17 @@ li {
 
 .commWorkDivDown{
   padding-left: 7rem;
+  padding-right: 7rem;
   padding-bottom: 8rem;
 }
 
-/* work list ends */
+
 
 .commWorkDiv{
   padding-top: 4rem;
-        padding-left: 7rem;
-        padding-right: 0;
-        width: 100%;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  width: 100%;
 }
 
 .commWorkHeading1 {
@@ -332,7 +333,11 @@ li {
   color: white;
   text-shadow: rgb(0, 0, 0) .1rem 0, rgb(0, 0, 0) -.1rem 0, rgb(0, 0, 0) 0rem .1rem, rgb(0, 0, 0) 0rem -.1rem, rgb(0, 0, 0) .1rem .1rem, rgb(0, 0, 0) -.1rem -.1rem, rgb(0, 0, 0) .1rem -.1rem, rgb(0, 0, 0) -.1rem .1rem;
 }
-.commWork{
+
+/* work list ends */
+
+
+/* .commWork{
     box-sizing: border-box;
     scroll-behavior: smooth;
     margin: 0;
@@ -345,14 +350,18 @@ li {
     margin-top: 1.5rem;
     box-shadow: rgba(157, 156, 156, 0.5) .2rem .3rem .5rem .1rem;
     margin-right: 7rem;
+    margin-left: 7rem;
     padding: 1.3rem 1.6rem 1.6rem;
     background: linear-gradient(90deg, rgba(178, 58, 72, 0.49) 0.73%, rgba(140, 47, 57, 0) 100%);
     border-radius: .8rem;
     overflow: hidden;
     
+    
 }
 
 .commWorkSpan2{
+  font-family: Roboto;
+    font-style: normal;
   font-weight: 600;
   font-size: 20px;
 
@@ -369,7 +378,7 @@ li {
     float: left;
 }
 .commWorkSpan3{
-  /* display: none; */
+
   font-size: 20px;
   font-family: Roboto;
     font-style: normal;
@@ -377,9 +386,51 @@ li {
 
 }
 .commWorkDown{
-  align-items: center;
+  display: flex;
+  justify-content: space-between;
   padding-top: 1.7rem;
+} */
+
+.commWork{
+  background: linear-gradient(90deg, rgba(178, 58, 72, 0.49) 0.73%, rgba(140, 47, 57, 0) 100%);
+
+  /* margin-left: 7rem; */
+  /* margin-right: 1rem; */
+  margin-bottom: 1.6rem;
+  margin-top: 1.5rem;
+  box-shadow: rgba(157, 156, 156, 0.5) .2rem .3rem .5rem .1rem;
+  /* margin-right: 7rem; */
+  padding: 1.3rem 1.6rem 1.6rem;
+  border-radius: .8rem;
+  overflow: hidden;
 }
+
+.commWorkDown{
+  display: flex;
+  justify-content: space-between;
+  font-family: Roboto;
+  font-style: normal;
+}
+.commWorkSpan2{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.commWorkUp {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  color: rgb(0, 0, 0);
+}
+.commWorkSpan3{
+  padding-top: 1rem;
+  font-size: 20px;
+  font-family: Roboto;
+  font-style: normal;
+}
+
 
 /* footer  */
 .footer-first{
@@ -586,10 +637,17 @@ li {
     display: none;
   }
 
-  .headingWork{
-    padding-top: 10rem;
+ 
+  /* .headingWork {
     padding-bottom: 10rem;
-  }
+    padding-top: 10rem;
+    font-family: Anton;
+    font-style: normal;
+    font-size: 4rem;
+    text-align: start;
+    padding-right: 133rem;
+    padding-left: 4.5rem;
+  } */
 
   .commWorkHeading1{
     font-size: 4rem;
@@ -598,7 +656,7 @@ li {
   .commWorkHeading2{
     font-size: 4rem;
   }
-  .commWork{
+  /* .commWork{
     height: 31.5rem;
     margin-right: 5rem;
     margin-bottom: 3.5rem;
@@ -614,8 +672,7 @@ li {
     padding-bottom: 4rem;
   }
   .commWorkUp{
-    /* width: 30.3rem;
-    height: 5.2rem; */
+ 
     line-height: 5.5rem;
     font-size: 4.5rem;
     padding-top: 2rem;
@@ -626,6 +683,62 @@ li {
     font-size: 4rem;
     line-height: 8rem;
     
+  } */
+  /* .commWorkSpan3{
+    display: contents;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 10rem;
+  }
+  .commWorkDown{
+    padding-left: 2rem;
+
+  } */
+
+  .commWorkDivDown{
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+    padding-bottom: 10rem;
+  }
+  .commWorkDiv{
+    padding-left: 5.5rem;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+  }
+  .commWorkDown{
+    padding-left: 0rem;
+    padding-top: 1rem;
+    font-weight: 400;
+    display: block;
+  } 
+  .commWorkSpan2{
+    font-size: 3rem;
+    /* line-height: 3rem;   */
+  } 
+  .commWorkSpan3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 3rem;
+    padding-top: 3rem;  
+  }
+  .commWork{
+    /* margin-left: 5rem; */
+    line-height: 4.5rem;
+    font-size: 3.9rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 4rem;
+    /* margin-right: 5rem; */
+    margin-bottom: 3.5rem;
+    box-shadow: rgba(157, 156, 156, 0.3) .5rem .6rem .8rem .4rem;
+  }
+  .commWorkUp{
+    line-height: 4.5rem;
+    font-size: 4rem;
+    font-weight: 585;
   }
   .hover-reveal img {
     width: 0;
@@ -636,10 +749,6 @@ li {
   
   }
 
-  .workSpan, .workSpan2, .wirkSpan1{
-    font-size: 10rem;
-  } 
-  
   .workNAV ul li .link span {
     display: block;
     z-index: 5;
@@ -667,26 +776,15 @@ li {
     color: #B23A48;
     font-weight: 700;
   }
-  .commWorkSpan3{
-    display: contents;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 3.5rem;
-    line-height: 10rem;
-  }
-  .commWorkDown{
-    padding-left: 2rem;
-
-  }
+  
   .headingWork {
     padding-bottom: 9rem;
     padding-top: 9rem;
     font-family: Anton;
     font-style: normal;
-    font-size: 6rem;
-    text-align: start;
-    padding-right: 133rem;
+    /* font-size: 4rem; */
+    /* text-align: start; */
+    /* padding-right: 133rem; */
     padding-left: 4.5rem;
   }
   
@@ -717,6 +815,9 @@ li {
 }
 }
 
+
+
+
 /* responsiv for tablets */
 
 @media (min-width: 325px) and (max-width:961px){
@@ -734,49 +835,13 @@ li {
 
   .commWorkHeading1{
     font-size: 6rem;
- 
   }
+
   .commWorkHeading2{
     font-size: 6rem;
   }
-  .commWork{
-    line-height: 4.5rem;
-    font-size: 3.9rem;
-    padding-top: 4rem;
-    padding-left: 2rem;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    flex-shrink: 1;
-    height: 18rem;
-    margin-right: 5rem;
-    margin-bottom: 3.5rem;
-    box-shadow: rgba(157, 156, 156, 0.3) .5rem .6rem .8rem .4rem;
-    
-  }
-  .commWorkDivDown{
-    padding-left: 5.5rem;
-    padding-bottom: 11rem;
-  }
-  .commWorkDiv{
-    padding-left: 5.5rem;
-    padding-top: 10rem;
-    padding-bottom: 7rem;
-  }
-  .commWorkUp{
-    /* width: 30.3rem;
-    height: 5.2rem; */
-    line-height: 4.5rem;
-    font-size: 3.9rem;
-    /* padding-top: 3rem; */
-    /* padding-left: 2rem; */
-    /* display: block; */
   
-  }
-  .commWorkSpan2{
-    font-size: 3rem;
-    line-height: 3rem;  
-  }
+  
   .hover-reveal img {
     width: 0;
     height: 0;
@@ -813,7 +878,78 @@ li {
     color: #B23A48;
     font-weight: 700;
   }
+  .commWorkDivDown{
+    padding-left: 5.5rem;
+    padding-bottom: 11rem;
+  }
+  .commWorkDiv{
+    padding-left: 5.5rem;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+  }
+  .commWorkDown{
+    padding-left: 0rem;
+    padding-top: 1rem;
+    font-weight: 400;
+
+  } 
+  .commWorkSpan2{
+    font-size: 3rem;
+    /* line-height: 3rem;   */
+  } 
   .commWorkSpan3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 3rem;  
+  }
+  .commWork{
+    /* margin-left: 5rem; */
+    line-height: 4.5rem;
+    font-size: 3.9rem;
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    /* margin-right: 5rem; */
+    margin-bottom: 3.5rem;
+    box-shadow: rgba(157, 156, 156, 0.3) .5rem .6rem .8rem .4rem;
+  }
+  .commWorkUp{
+    line-height: 4.5rem;
+    font-size: 3.9rem;
+  }
+
+
+
+  /* .commWork{
+    line-height: 4.5rem;
+    font-size: 3.9rem;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+    height: 18rem;
+    margin-right: 5rem;
+    margin-bottom: 3.5rem;
+    box-shadow: rgba(157, 156, 156, 0.3) .5rem .6rem .8rem .4rem;
+    
+  } */
+  /* .commWorkDivDown{
+    padding-left: 5.5rem;
+    padding-bottom: 11rem;
+  } */
+  /* .commWorkDiv{
+    padding-left: 5.5rem;
+    padding-top: 10rem;
+    padding-bottom: 7rem;
+  } */
+  /* .commWorkUp{
+    line-height: 4.5rem;
+    font-size: 3.9rem;
+  } */
+  /* .commWorkSpan3{
     display: contents;
     font-family: 'Roboto';
     font-style: normal;
@@ -822,20 +958,28 @@ li {
     line-height: 10rem;
     
   }
+
+  .commWorkSpan4{
+    display: none;
+  }
   .commWorkDown{
     padding-left: 0rem;
     padding-top: 6.5rem;
     font-weight: 400;
 
-  }
+  } */
+  /* .commWorkSpan2{
+    font-size: 3rem;
+    line-height: 3rem;  
+  } */
   .headingWork {
     padding-bottom: 9rem;
     padding-top: 9rem;
     font-family: Anton;
     font-style: normal;
-    font-size: 13rem;
+    font-size: 7rem;
     text-align: start;
-    padding-right: 133rem;
+    /* padding-right: 133rem; */
     padding-left: 4.5rem;
   }
   
