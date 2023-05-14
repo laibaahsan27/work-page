@@ -626,7 +626,7 @@ li {
   
 /* responsive starts here */
 
-@media (max-width: 320px){
+@media (max-width: 600px){
 
 	
   html{
@@ -820,7 +820,7 @@ li {
 
 /* responsiv for tablets */
 
-@media (min-width: 325px) and (max-width:961px){
+@media (min-width: 601px) and (max-width:961px){
   html{
     font-size: 55%; 
   }
